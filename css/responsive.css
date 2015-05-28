@@ -1,0 +1,75 @@
+/* lg */ 
+@media (min-width: 1200px) {
+ /* Make Navigation Toggle on Desktop Hover */
+.dropdown:hover .dropdown-menu {display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;
+  }
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+.imglogo{height: 50px; width: 335px;margin-left: 38px;}
+  
+ /* Make Navigation Toggle on Desktop Hover */
+.dropdown:hover .dropdown-menu {display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;}
+.navbar-nav > li { margin-left: 10px;}
+.navbar-collapse { padding-left: 0;padding-right: 0;}
+.navbar-nav {margin-top: 0px;}
+.video-container {padding-bottom: 50.25%;margin-left: 23px;padding-top: 0;height: 0;overflow: visible;margin-top: -295px;}
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+.imglogo{height: 65px; width: 370px;margin-left: 40px;}
+  /* Make Navigation Toggle on Desktop Hover */
+.dropdown:hover .dropdown-menu {display: block;
+      -webkit-animation: fadeInUp 400ms;
+      animation: fadeInUp 400ms;}
+.navbar-collapse {padding-left: 0;padding-right: 0;}
+.navbar-nav > li {margin-left: 0;}
+.navbar-nav {margin-top: 10px;}
+.video-container {padding-bottom: 45.25%;margin-left: 29px; padding-top: 0;height: 0;overflow: visible; margin-top: -358px;}
+.video-container iframe, .video-container object, .video-container embed {position:absolute;top:0;left:0;width:86%;height:100%;}
+.res-margin-footer{margin-bottom: 20px}
+.mail-text {text-align: center}
+
+}
+
+@media (min-width: 768px) and (max-width: 892px) {
+.navbar-nav {margin-top: -57px;}
+.footer-ver-menu  > ul,.bottom-footer {text-align: center}
+.mail-text {text-align: center}
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+.container > .navbar-header, .container > .navbar-collapse{margin-left: 0;}
+.imglogo{height: 50px; width: 335px;margin-left: 38px;}
+.navbar-nav > li {padding-bottom: 0;}
+.footer-ver-menu  > ul,.bottom-footer {text-align: center}
+.mail-text {text-align: center}
+.video-container {
+  position: static;
+  padding-bottom: 50.25%;
+  margin-left: 22px;
+  padding-top: 0;
+  height: 0;
+  overflow: visible;
+  margin-top: -357px;}
+ .video-container iframe, .video-container object, .video-container embed {position:absolute;top:0;left:0;width:86%;height:100%;}
+}
+
+@media (max-width: 480px) {
+.imglogo{height: 50px; width: 335px;margin-left: 38px;}
+
+}
+
+@media (max-width: 432px) {
+.imglogo{margin-top: -52px; margin-left: 2px}
+}
