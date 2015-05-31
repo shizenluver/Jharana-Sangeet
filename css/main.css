@@ -26,7 +26,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {background-color: #3274ad;color: #fff;}
+.navbar-inverse .navbar-nav > .open > a:focus {background-color: #D58520;color: #fff;}
 .navbar-inverse .navbar-nav .dropdown-menu {background-color: rgba(0,0,0,.85);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -65,4 +65,5 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .mail-text {color: #fff;   font-size: 17px;font-weight: bold;}
 .mail-text a:hover{text-decoration: none;font-size: 17px}
 .social-link-text{font-size: 80px;color: #d78d1f;margin-bottom: 20px}
+.copyright-text {padding: 7px;}
 /* --------------------------------------- */
