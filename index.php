@@ -18,7 +18,6 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-
     <style>
       @font-face {
         font-family: myFirstFont;
@@ -38,9 +37,9 @@
      }
    </style>
 
- </head><!--/head-->
+</head><!--/head-->
 
- <body class="homepage">
+<body class="homepage">
   <?php include_once 'includes\header.php' ?>
   <!--main body -->
   <div class="main-body-index page-bg">
@@ -49,8 +48,8 @@
         <div class="indexbg col-md-7">
           <img src="images/videobg.png" class="video-bg img-responsive">
           <div class="video-container">
-           <iframe width="420" height="315" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" allowfullscreen>
-             <iframe src="//www.youtube.com/embed/t6q80hYy7sk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+           <iframe id="main-iframe" width="420" height="315" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" onload="disableContextMenu()" allowfullscreen>
+             <iframe id="main-iframe" src="//www.youtube.com/embed/t6q80hYy7sk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
            </div>
          </div>
          <div class="col-md-5">
@@ -64,8 +63,16 @@
   <!--main body ends-->
   <?php include_once 'includes\footer.php' ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+  <script>
+    function disableContextMenu(){
+      // window.frames["main-iframe"].document.oncontextmenu = function(){ return false;};
+      // Or use this
+      document.getElementById("main-iframe").contentWindow.document.oncontextmenu = function(){ return false;
+       return top.frames;}
+    }
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- // <script src="js/main.js"></script> -->
 </body>
 </html>

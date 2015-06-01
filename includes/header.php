@@ -36,9 +36,9 @@
 
   </head><!--/head-->
 
-  <body class="homepage">
+  <body class="homepage ">
 
-    <header id="header">
+    <header id="header fixed-menu">
       <nav class="navbar navbar-inverse" role="banner">
 
         <div class="container-fluid">
