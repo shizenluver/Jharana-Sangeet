@@ -47,28 +47,46 @@
 
 </head><!--/head-->
 
-<body class="homepage">
+<body class="videopage">
   <?php include_once 'includes\header.php' ?>
 
 <!--main body -->
-  <div class="main-body-index page-bg">
-    <div class="container">
-      <div class="row main-body-margin-top">
-        <div class="indexbg col-md-7">
-          <img src="images/videobg.png" class="video-bg img-responsive">
-            <div class="video-container">
+<div class="search-area">
+    <div class="search-text">
+      <h3 id="div2">WATCH YOUR FAVOURITE VIDEOS</h3>
+    </div>
+    <div class="search-box">
+       <form method="get" action="/search" id="search">
+          <input name="q" type="text" size="40" placeholder="Enter a name or aartist.." />
+      </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <h2 class="videopage-head" id="div3">featured <img src="images/featured.png" class="img-responsive"></h2>
+    </div>
+    <div class="row">
+      <div class="col-md-7 videopage-content-bg">
+        <div class="video-container-videopage">
                <iframe id="main-iframe" width="420" height="315" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" onload="disableContextMenu()" allowfullscreen>
                  <iframe id="main-iframe" src="//www.youtube.com/embed/t6q80hYy7sk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-               </div>
-            </div>
-        <div class="col-md-5 discover-text">
-          <P><h3 id="div1" class="discover-text1">DISCOVER</h3></P>
-          <p><h2 id="div3" class="discover-text2"> All<br> our songs and videos<br> in one place</h2></p>
         </div>
       </div>
+      <div class="col-md-4 videopage-content-bg margin10pxrt">
+        <h3>TOP CHARTS</h3>
+     </div>
     </div>
-  </div>
+</div>
 
+<div class="container">
+    <div class="row">
+      <h2 class="videopage-head" id="div3">popular videos<img src="images/video.png" class="img-responsive"></h2>
+    </div>
+    <div class="row">
+       <?php include_once 'includes\video_detailed.php' ?>
+    </div>
+</div>
   <!--main body ends-->
   <!--footer-->
 
