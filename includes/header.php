@@ -49,14 +49,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="index.html"><img src="images/jslogo.png" alt="logo" class="imglogo"></a>
+            <a href="index.php"><img src="images/jslogo.png" alt="logo" class="imglogo"></a>
           </div>
         </div><!--/.container-->
 
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Videos </i></a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="video.php">Videos </i></a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
