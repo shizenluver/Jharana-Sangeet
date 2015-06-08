@@ -6,6 +6,8 @@
       animation: fadeInUp 400ms;
   }
 .main-body-margin-top{margin-bottom: 33px}
+.video-container{margin: -357px 30px 0 28px;position:relative;padding-bottom:45.25%;padding-top:30px;height:0;overflow:hidden;}
+
 }
 
 /* md */
@@ -41,7 +43,7 @@
 .discover-text{margin-top: 90px;font-size: 70px}
 .discover-text1{font-size: 70px}
 .discover-text2{font-size: 50px}
-.video-container{ margin:-358px 97px 0 28px;;position:relative;padding-bottom:41.25%;padding-top:30px;height:0;overflow:hidden;}
+.video-container{ margin:-358px 97px 0 20px;;position:relative;padding-bottom:41.25%;padding-top:30px;height:0;overflow:hidden;}
 
 }
 
@@ -61,8 +63,8 @@
 .discover-text1 {font-size: 67px}
 .discover-text2 {font-size: 40px}
 .discover-text {margin-top: 0px}
-.video-bg{display: none}
-.video-container{ margin:0 30px 0 30px;position:relative;padding-bottom:41.25%;padding-top:30px;height:0;overflow:hidden;}
+/*.video-bg{display: none}*/
+.video-container{ margin:-330px 30px 0 30px;position:relative;padding-bottom:41.25%;padding-top:30px;height:0;overflow:hidden;}
 
 }
 

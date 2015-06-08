@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Home | Jharana Sangeet</title>
+  <script src="js/jquery.js"></script>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,33 +16,16 @@
       <![endif]-->
       <link rel="shortcut icon" href="images/ico/favicon.ico">
 
-      <style>
-        @font-face {
-          font-family: myFirstFont;
-          src: url(fonts/Overcome.ttf);
-          font-weight: bold;
-        }
-        @font-face {
-          font-family: myFirstFont2;
-          src: url(fonts/twentysingles.ttf);
-          font-weight: bold;
-        }
-        @font-face {
-        font-family: myFirstFont3;
-        src: url(fonts/trench.ttf);
-        font-weight: bold;
-      }
-        #div1 {
-         font-family: myFirstfont;
-       }
-       #div2 {
-         font-family: myFirstfont2;
-       }
-       #div3 {
-       font-family: myFirstfont3;
-     }
-     </style>
-
+    <link href="css/font.css" rel="stylesheet">
+  <script>
+    $(document).ready(function(){
+      $(".navbar-nav li").click(function(){
+          $("ul li").removeClass("active");
+          debugger
+          $(this).addClass("active");
+      });
+    });
+  </script>
   </head><!--/head-->
 
   <body class="homepage ">

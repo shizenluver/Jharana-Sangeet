@@ -31,11 +31,11 @@
       <div class="row main-body-margin-top">
         <div class="indexbg col-md-7">
           <img src="images/videobg.png" class="video-bg img-responsive">
-            <div class="video-container">
-               <iframe id="main-iframe" width="420" height="315" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" onload="disableContextMenu()" allowfullscreen>
-                 <iframe id="main-iframe" src="//www.youtube.com/embed/t6q80hYy7sk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-               </div>
-            </div>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive video-container embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
         <div class="col-md-5 discover-text">
           <h3 id="Overcome" class="discover-text1">DISCOVER</h3>
           <h2 id="Trench" class="discover-text2"> All<br> our songs and videos<br> in one place</h2>

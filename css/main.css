@@ -41,7 +41,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {border-top: 0;padding-bottom: 0;}
 .fixed-menu{position: fixed}
 
-.main-body-index{margin-top: 0px; height: 563px;}
+.main-body-index{margin-top: 0px; min-height: 563px; height: auto;}
 .margin-top{margin-top: 10px;}
 .main-body-margin-top{margin-top: 30px; padding-top: 43px;}
 .page-bg{ background: -webkit-linear-gradient(#946d34, #E0B057); /* For Safari 5.1 to 6.0 */
@@ -53,7 +53,6 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .discover-text{margin-top: 60px;position: relative;}
 .discover-text1{font-size:100px;text-align: center;color: #000}
 .discover-text2{font-size:50px;text-align: center;color: #000;text-transform: uppercase;}
-.video-container{margin: -357px 30px 0 28px;position:relative;padding-bottom:45.25%;padding-top:30px;height:0;overflow:hidden;}
 .video-container iframe, .video-container object, .video-container embed
 {position:absolute;top:0;left:0;width:100%;height:100%;}
 
