@@ -64,7 +64,7 @@
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="#">Videos </i></a></li>
+            <li><a href="video.php">Videos </i></a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
