@@ -31,26 +31,26 @@
       <div class="col-md-2 footer-ver-menu">
         <ul>
          <li><h3 id="div1" class="footer-text">EXPLORE MORE</h3></li>
-         <li><a href="index.php?page=Lok">Top Videos</a></li>
-         <li><a href="index.php?page=Adhunik">Popular Videos</a></li>
-         <li><a href="index.php?page=Instrumental">Latest Videos</a></li>
-         <li><a href="index.php?page=Bhajan">Music Genres</a></li>
-         <li><a href="index.php?page=Movies">Ringtones</a></li>
+         <li id="div3"><a href="index.php?page=Lok">Top Videos</a></li>
+         <li id="div3"><a href="index.php?page=Adhunik">Popular Videos</a></li>
+         <li id="div3"><a href="index.php?page=Instrumental">Latest Videos</a></li>
+         <li id="div3"><a href="index.php?page=Bhajan">Music Genres</a></li>
+         <li id="div3"><a href="index.php?page=Movies">Ringtones</a></li>
         </ul>
       </div>
       <div class="col-md-2 footer-ver-menu">
         <ul>
          <li><h3 id="div1" class="footer-text">SERVICES</h3></li>
-         <li><a href="#">Audio Production</a></li>
-         <li><a href="#">Digital Marketing</a></li>
+         <li id="div3"><a href="#">Audio Production</a></li>
+         <li id="div3"><a href="#">Digital Marketing</a></li>
         </ul>
       </div>
       <div class="col-md-2 footer-ver-menu">
         <ul>
           <li><h3 id="div1" class="footer-text">ABOUT US</h3></li>
-          <li><a href="index.php?page=Bhajan">Company Info</a></li>
-          <li><a href="index.php?page=Bhajan">Team Members</a></li>
-          <li><a href="index.php?page=Bhajan">Partners and Supporters</a></li>
+          <li id="div3"><a href="index.php?page=Bhajan">Company Info</a></li>
+          <li id="div3"><a href="index.php?page=Bhajan">Team Members</a></li>
+          <li id="div3"><a href="index.php?page=Bhajan">Partners and Supporters</a></li>
         </ul>
       </div>
     </div>

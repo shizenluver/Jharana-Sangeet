@@ -26,12 +26,20 @@
           src: url(fonts/twentysingles.ttf);
           font-weight: bold;
         }
+        @font-face {
+        font-family: myFirstFont3;
+        src: url(fonts/trench.ttf);
+        font-weight: bold;
+      }
         #div1 {
          font-family: myFirstfont;
        }
        #div2 {
          font-family: myFirstfont2;
        }
+       #div3 {
+       font-family: myFirstfont3;
+     }
      </style>
 
   </head><!--/head-->
@@ -49,13 +57,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="index.html"><img src="images/jslogo.png" alt="logo" class="imglogo"></a>
+            <a href="index.php"><img src="images/jslogo.png" alt="logo" class="imglogo"></a>
           </div>
         </div><!--/.container-->
 
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
             <li><a href="#">Videos </i></a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Services</a></li>

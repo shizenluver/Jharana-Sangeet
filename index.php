@@ -31,7 +31,7 @@
       }
        @font-face {
         font-family: myFirstFont3;
-        src: url(fonts/lithos-regular.ttf);
+        src: url(fonts/trench.ttf);
         font-weight: bold;
       }
     #div1 {
