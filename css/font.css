@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Overcome;
+  src: url(../fonts/Overcome.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Twenty_Singles;
+  src: url(../fonts/twentysingles.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Trench;
+  src: url(../fonts/trench.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: myFirstFont3;
+  src: url(fonts/lithos-regular.ttf);
+  font-weight: bold;
+}
+#Overcome {
+ font-family: Overcome;
+}
+#Twenty_Singles {
+ font-family: Twenty_Singles;
+}
+#Trench {
+ font-family: Trench;
+}

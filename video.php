@@ -18,33 +18,6 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <style>
-      @font-face {
-        font-family: myFirstFont;
-        src: url(fonts/Overcome.ttf);
-        font-weight: bold;
-      }
-      @font-face {
-        font-family: myFirstFont2;
-        src: url(fonts/twentysingles.ttf);
-        font-weight: bold;
-      }
-       @font-face {
-        font-family: myFirstFont3;
-        src: url(fonts/lithos-regular.ttf);
-        font-weight: bold;
-      }
-    #div1 {
-       font-family: myFirstfont;
-     }
-     #div2 {
-       font-family: myFirstfont2;
-     }
-     #div3 {
-       font-family: myFirstfont3;
-     }
-   </style>
-
 </head><!--/head-->
 
 <body class="videopage">
@@ -53,11 +26,11 @@
 <!--main body -->
 <div class="search-area">
     <div class="search-text">
-      <h3 id="div2">WATCH YOUR FAVOURITE VIDEOS</h3>
+      <h3 id="Twenty_Singles">WATCH YOUR FAVOURITE VIDEOS</h3>
     </div>
     <div class="search-box">
        <form method="get" action="/search" id="search">
-          <input name="q" type="text" size="40" placeholder="Enter a name or aartist.." />
+          <input name="q" type="text" size="40" placeholder="Enter a name or artist.." />
       </form>
     </div>
 </div>
