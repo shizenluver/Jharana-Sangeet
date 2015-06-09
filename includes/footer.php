@@ -16,12 +16,9 @@
             <li><a class="soc-google" href="#"></a></li>
           </ul>
         </section>
-        <div class="mail">
+        <div class="mail mail-text">
           <a href="mailto:jharanasangeetrecording@gmail.com">
-            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-            <span class="mail-text">
-              jharanasangeetrecording@gmail.com
-            </span>
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"> jharanasangeetrecording@gmail.com</span>
           </a>
           <br>
         </div>

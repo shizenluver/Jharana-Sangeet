@@ -44,7 +44,6 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 /*================nav menu end================*/
 .main-body-index{margin-top: 0px;height: auto;}
 .margin-top{margin-top: 10px;}
-.main-body-margin-top{margin-top: -25px; padding-top: 43px;}
 .page-bg{ background: -webkit-linear-gradient(#946d34, #E0B057); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#946d34, #E0B057); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#946d34, #E0B057); /* For Firefox 3.6 to 15 */
@@ -59,10 +58,10 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 
 /* ---------------------Footer-------------------------------------------------------- */
 .footer-bg{background-color:#222 !important;padding-top:10px !important;border-top:1px solid #080808;}
-.footer-text{color:#CC6600 !important; font-size: 18px;}
+.footer-text{  color: #DAAB54 !important;font-size: 21px}
 .footer-ver-menu{ text-align: center;}
 .footer-ver-menu > ul {list-style:none;color:#C8841E;padding-left:20px; font-size: 20px;}
-.footer-ver-menu a:hover{text-decoration: none;color: #fff;font-size: 15px;text-align: center;}
+.footer-ver-menu a:hover{text-decoration: none;color: #fff;font-size: 22px;text-align: center;}
 .bottom-footer{border-top: 1px solid #323232;text-align: center;color: #fff;font-size: 13px}
 .social-share{display: block; list-style: none}
 .mail {margin: 6px;}
@@ -70,6 +69,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .mail-text a:hover{text-decoration: none;font-size: 18px;color:#E0B057;}
 .social-link-text{font-size: 80px;color: #d78d1f;margin-bottom: 20px}
 .copyright-text {padding: 7px;}
+.glyphicon {font-size: 18px}
 /* --------------------------------------- */
 
 /*video page*/

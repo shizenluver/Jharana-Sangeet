@@ -4,7 +4,7 @@
 .dropdown:hover .dropdown-menu {display: block;
       -webkit-animation: fadeInUp 400ms;
       animation: fadeInUp 400ms;  }
-.main-body-margin-top{margin-bottom: 33px}
+.main-body-margin-top{margin-bottom: 200px}
 .main-body-index {margin-bottom: 0px;}
 .imglogo{height: 59px;width: 322px;margin: -10px 0 5px -16px}
 .navbar-nav{margin-top: -47px;padding-right: 40px; }
@@ -13,11 +13,13 @@
 .discover-text{margin-top: 60px;}
 .discover-text1{font-size:100px}
 .discover-text2{font-size:50px;}
+.main-body-margin-top{margin-top: 50px; padding-top: 43px;}
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
  /* Make Navigation Toggle on Desktop Hover */
+.main-body-margin-top{margin-top: 50px; padding-top: 43px; margin-bottom: 150px}
 .imglogo{height: 59px;width: 322px;margin: -10px 0 4px -16px}
 .main-body-index {margin-bottom:0px;}
 .dropdown:hover .dropdown-menu {display: block;
@@ -29,7 +31,7 @@
 .discover-text {margin-top: 17px}
 .discover-text1{font-size: 80px}
 .discover-text2{font-size: 50px}
-.main-body-margin-top{margin-bottom: 18px}
+.main-body-margin-top{margin-bottom: 130px}
 .video-container {position: relative;padding-bottom: 51.25%;padding-top: 0;height: 0;overflow: hidden;margin: -298px 20px 0 21px;}
 .video-container iframe, .video-container object, .video-container embed {position: absolute;top: -54px;left: 0px;width: 100%;height: 140%;}
 }
@@ -37,6 +39,7 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
   /* Make Navigation Toggle on Desktop Hover */
+.main-body-margin-top{margin-top: -25px; padding-top: 43px;}
 .imglogo{height: 45px;width: 248px;margin: -10px 0 4px -16px}
 .dropdown:hover .dropdown-menu {display: block;
   -webkit-animation: fadeInUp 400ms;
@@ -54,6 +57,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 892px) {
+	.main-body-margin-top{margin-top: -25px; padding-top: 43px;}
 .navbar-nav {margin-top: -42px;}
 .footer-ver-menu  > ul,.bottom-footer {text-align: center}
 .mail-text {text-align: center}
@@ -62,6 +66,7 @@
 
 /* xs */
 @media (max-width: 767px) {
+	.main-body-margin-top{margin-top: -25px; padding-top: 43px;}
 .video-bg{display: none}
 .container > .navbar-header, .container > .navbar-collapse{margin-left: 0;}
 .navbar-nav > li {padding-bottom: 0;}
