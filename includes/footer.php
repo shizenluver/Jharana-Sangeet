@@ -10,18 +10,11 @@
       <div class="col-md-6 mail-text">
         <P><h3 id="Twenty_Singles" class="social-link-text">Get more updates on</h3></P>
         <section class="margin-top">
-          <a href="#" class="share-btn" target="_blank">
-            <span class="share-btn-action share-btn-tweet">Tweet</span>
-            <span class="share-btn-count">1</span>
-          </a>
-          <a href="h#" class="share-btn" target="_blank">
-           <span class="share-btn-action share-btn-like">Like</span>
-           <span class="share-btn-count">1</span>
-          </a>
-          <a href="#" class="share-btn" target="_blank">
-           <span class="share-btn-action share-btn-plus">+1</span>
-           <span class="share-btn-count">1</span>
-          </a>
+          <ul class="soc">
+            <li><a class="soc-twitter" href="#"></a></li>
+            <li><a class="soc-facebook" href="#"></a></li>
+            <li><a class="soc-google" href="#"></a></li>
+          </ul>
         </section>
         <div class="mail">
           <a href="mailto:jharanasangeetrecording@gmail.com">

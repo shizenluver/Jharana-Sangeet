@@ -21,7 +21,6 @@
     $(document).ready(function(){
       $(".navbar-nav li").click(function(){
           $("ul li").removeClass("active");
-          debugger
           $(this).addClass("active");
       });
     });
@@ -33,7 +32,7 @@
     <header id="header fixed-menu">
       <nav class="navbar navbar-inverse" role="banner">
 
-        <div class="container-fluid">
+        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>

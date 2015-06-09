@@ -17,7 +17,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
   <link href="css/font.css" rel="stylesheet">
 
 </head><!--/head-->
@@ -26,13 +26,12 @@
   <?php include_once 'includes\header.php' ?>
 
 <!--main body -->
-  <div class="main-body-index page-bg">
+  <div class="main-body-aboutus page-bg">
     <div class="container">
       <div class="row main-body-margin-top">
         <div class="indexbg col-md-7">
           <img src="images/videobg.png" class="video-bg img-responsive">
-          <!-- 16:9 aspect ratio -->
-          <div class="embed-responsive video-container embed-responsive-16by9">
+        <div class="embed-responsive video-container embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
