@@ -48,16 +48,23 @@
 
   <?php include_once 'includes\footer.php' ?>
 <!--footer ends-->
-  <script>
+<script>
     function disableContextMenu(){
       // window.frames["main-iframe"].document.oncontextmenu = function(){ return false;};
       // Or use this
       document.getElementById("main-iframe").contentWindow.document.oncontextmenu = function(){ return false;
        return top.frames;}
     }
-  </script>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!-- // <script src="js/main.js"></script> -->
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/jquery.inview.js"></script>
+<script src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

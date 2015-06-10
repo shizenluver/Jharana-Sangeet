@@ -50,7 +50,7 @@
             <li><a href="video.php">Videos </i></a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="aboutus.php">Contact</a></li>
             <li><a href="#">Sign In</a></li>
 
           </ul>

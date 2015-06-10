@@ -40,7 +40,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   /* Make Navigation Toggle on Desktop Hover */
 .main-body-margin-top{margin-top: -25px; padding-top: 43px;}
-.imglogo{height: 45px;width: 248px;margin: -10px 0 4px -16px}
+.imglogo{height: 45px;width: 248px;margin: -10px 0 4px 0px}
 .dropdown:hover .dropdown-menu {display: block;
   -webkit-animation: fadeInUp 400ms;
   animation: fadeInUp 400ms;}
