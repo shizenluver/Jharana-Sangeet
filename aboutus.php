@@ -8,28 +8,27 @@
   <title>About US | Jharana Sangeet</title>
 
   <!-- core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/socialshare.css">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/socialshare.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- Load css styles -->
-
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleaboutus.css" />
-        
-        <!--[if IE 7]>
-            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-        <![endif]-->
-    
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleaboutus.css" />
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/favicon.ico">
-  <link href="css/font.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.gif">
+    <link href="css/font.css" rel="stylesheet">
 
 </head><!--/head-->
 
@@ -94,7 +93,7 @@
                                 <h3>An</h3>
                             </li>
                             <li>
-                                <span class="bar" data-width="95%"></span>
+                                <span class="bar" data-width="70%"></span>
                                 <h3>B</h3>
                             </li>
                             <li>
@@ -323,7 +322,7 @@
                 </div>
             </div>
         </div>
-        <!-- Price section start -->
+       <!--
         <div id="price" class="section secondary-section">
             <div class="container">
                 <div class="title">
@@ -364,8 +363,8 @@
                     <a href="#contact" class="button">Contact Us</a>
                 </div>
             </div>
-        </div>
-        <!-- Price section end -->
+        </div>-->
+        
         <!-- Newsletter section start -->
         <div class="section third-section">
             <div class="container newsletter">
@@ -415,7 +414,7 @@
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
                                 <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="php/mail.php">
+                                <form id="contact-form" action="mail.php">
                                     <div class="control-group">
                                         <div class="controls">
                                             <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
@@ -430,7 +429,7 @@
                                     </div>
                                     <div class="control-group">
                                         <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
+                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."style="margin-top: 0px; margin-bottom: 3px; height: 194px;resize:none"></textarea>
                                             <div class="error left-align" id="err-comment">Please enter your comment.</div>
                                         </div>
                                     </div>
@@ -451,7 +450,7 @@
                         <p>+ph</p>
                         
                         <div class="title">
-                            <h3>Socialicon</h3>
+                            <h2>Get us on our social links</h2>
                         </div>
                     </div>
                     <div class="row-fluid centered">
@@ -490,6 +489,9 @@
 <script src="js/respond.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <!-- Load google maps api and call initializeMap function defined in app.js -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>

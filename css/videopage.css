@@ -1,0 +1,18 @@
+.video-container-videopage {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+    
+}
+
+.video-container-videopage iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.title-text{color:#fff;  margin-top: -40px; }
+.nopadding{margin-top:-45px;}

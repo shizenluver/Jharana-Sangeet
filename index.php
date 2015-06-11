@@ -17,7 +17,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.gif">
   <link href="css/font.css" rel="stylesheet">
 
 </head><!--/head-->
@@ -37,7 +37,7 @@
         </div>
         <div class="col-md-5 discover-text">
           <h3 id="Overcome" class="discover-text1">DISCOVER</h3>
-          <h2 id="Trench" class="discover-text2"> All<br> our songs and videos<br> in one place</h2>
+          <h2 id="Trench" class="discover-text2">All<br>our songs and videos<br>in one place</h2>
         </div>
       </div>
     </div>
@@ -56,6 +56,15 @@
        return top.frames;}
     }
 </script>
+<!-- ScrollUp button start --><link rel="stylesheet" type="text/css" href="css/pluton.css" />
+    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <div class="scrollup">
+            <a href="#">
+                <i class="icon-up-open"></i>
+            </a>
+        </div>
+        <!-- ScrollUp button end -->
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.mixitup.js"></script>
@@ -65,6 +74,8 @@
 <script type="text/javascript" src="js/jquery.placeholder.js"></script>
 <script type="text/javascript" src="js/jquery.inview.js"></script>
 <script src="js/respond.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script><!--scroll-->
+<script src="js/jquery.jribbble-1.0.1.ugly.js"></script><!--scroll-->
+<script src="js/scroll.js"></script><!--scroll-->
 </body>
 </html>

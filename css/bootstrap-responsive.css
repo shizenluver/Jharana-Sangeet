@@ -158,7 +158,7 @@
     width: 470px;
   }
   .span4 {
-    width: 370px;
+    width: 352px;
   }
   .span3 {
     width: 270px;
@@ -807,8 +807,8 @@
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
-    margin-right: -20px;
-    margin-left: -20px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .container-fluid {
     padding: 0;

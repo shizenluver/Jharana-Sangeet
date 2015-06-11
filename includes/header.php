@@ -14,7 +14,7 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
       <![endif]-->
-      <link rel="shortcut icon" href="images/ico/favicon.ico">
+      <link rel="shortcut icon" href="images/ico/favicon.gif">
 
     <link href="css/font.css" rel="stylesheet">
   <script>
@@ -29,7 +29,7 @@
 
   <body class="homepage ">
 
-    <header id="header fixed-menu">
+    <header id="header">
       <nav class="navbar navbar-inverse" role="banner">
 
         <div class="container">
