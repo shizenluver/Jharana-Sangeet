@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>About US | Jharana Sangeet</title>
+  <title>Videos | Jharana Sangeet</title>
 
   <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
 
 <body>
   <?php include_once 'includes\header.php' ?>
-  <div class="search-area">
+<div class="search-area">
     <div class="search-text">
       <h3 id="Twenty_Singles">WATCH YOUR FAVOURITE VIDEOS</h3>
     </div>
@@ -45,68 +45,178 @@
       </form>
     </div>
 </div>
- <!-- main body -->
-    <div class="section primary-section" id="service">
+ <!-- featured section -->
+        <div class="section primary-section" id="service">
             <div class="container">
-        <div class="col-md-12">
-                <h2 class="wow fadeInUp title-text" data-wow-duration="2s">FEATURED<span><img src="images/featured.png"></span></h2>
-        </div>
-    </div>
-    <div class="container nopadding">
-        <div class="col-md-12 wow bounceInUp video-container-videopage">
-            <iframe id="main-iframe" width="420" height="315" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" onload="disableContextMenu()" allowfullscreen>
-            <iframe id="main-iframe" src="//www.youtube.com/embed/t6q80hYy7sk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-        </div>
-    </div
-        </div>
-        <!-- Service section end -->
-        <!-- Portfolio section start -->
-        <div class="section secondary-section " id="portfolio">
-            <div class="triangle"></div>
-            <div class="container">
-                   <div class="title">
-                    <h1>About Us</h1>
-                    <p>dfh</p>
+                <div class="col-md-12">
+                    <h2 class="wow fadeInUp title-text" data-wow-duration="2s">FEATURED<span><img src="images/featured.png"></span></h2>
                 </div>
-                <h3>Area of Work</h3>
+            </div>
+             <!-- Featured video-->
+            <div class="container">
                 <div class="row-fluid">
-                    <div class="span6">
-                        <ul class="skills">
-                            <li>
-                                <span class="bar" data-width="80%"></span>
-                                <h3>An</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="70%"></span>
-                                <h3>B</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="68%"></span>
-                                <h3>jC</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="70%"></span>
-                                <h3>D</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="span6">
-                        <div class="highlighted-box center">
-                            <h1>We're Hiring</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ullamcorper suscipit lobortis nisl ut aliquip consequat. I learned that we can do anything, but we can't do everything...</p>
-                            <button class="button button-sp">Join Us</button>
+                    <div class="col-md-12">
+                        <div class="embed-responsive video-container-videopage embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xQr_c4UfCNk" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-              
-                    
             </div>
-          </div>
-        
-        <!-- Portfolio section end -->
-        <!-- About us section start -->
+        </div><!-- featured section -->
+        <!-- top chart and ad section-->
+        <div class="section secondary-section " id="portfolio">
+            <div class="triangle"></div>
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="highlighted-box" style="  background-color: rgba(34, 34, 34, 0.83);border: 1px solid #000;">
+                                 <h1>Top Chart</h1>
+                                    <ul class="topchart">
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    <li><h2>song name</h2><p>Artist</p></li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div class="highlighted-box center">
+                                <h1>AD here</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div><!-- top chart and ad section end-->
+        <!-- newest video section -->
         <div class="section primary-section" id="about">
             <div class="triangle"></div>
+        <div class="section third-section">
+            <div class="container centered">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Newest collection</h3>
+                        </div>
+                        <ul class="client-nav pull-right">
+                            <li id="client-prev"></li>
+                            <li id="client-next"></li>
+                        </ul>
+                    </div>
+                    <ul class="row newest-slider" id="clint-slider">
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
+                            </a>
+                        </li><li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
+                            </a>
+                        </li><li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div><!-- newest video section end -->
+        <div class="section primary-section" id="about">
             <div class="container">
                 <div class="title">
                     <h1>Team Members</h1>
@@ -254,101 +364,7 @@
                 </div>
             </div>
         </div>
-        <div class="section third-section">
-            <div class="container centered">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Our Clients</h3>
-                        </div>
-                        <ul class="client-nav pull-right">
-                            <li id="client-prev"></li>
-                            <li id="client-next"></li>
-                        </ul>
-                    </div>
-                    <ul class="row client-slider" id="clint-slider">
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-       <!--
-        <div id="price" class="section secondary-section">
-            <div class="container">
-                <div class="title">
-                    <h1>Price</h1>
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
-                </div>
-                <div class="price-table row-fluid">
-                    <div class="span4 price-column">
-                        <h3>AUDIO RECORDING</h3>
-                        <ul class="list">
-                            <li class="price">price</li>
-                            <li>length</li>
-                            <li><strong>price</strong></li>
-                            <li>length</li>
-                        </ul>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>VIDEO RECORDING</h3>
-                        <ul class="list">
-                            <li class="price">price</li>
-                            <li>length</li>
-                            <li><strong>price</strong></li>
-                            <li>length</li>
-                        </ul>
-                    </div>
-                    <div class="span4 price-column">
-                        <h3>MOVIE EDITING</h3>
-                        <ul class="list">
-                            <li class="price">price</li>
-                            <li>length</li>
-                            <li><strong>price</strong></li>
-                            <li>length</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="centered">
-                    <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
-                    <a href="#contact" class="button">Contact Us</a>
-                </div>
-            </div>
-        </div>-->
-        
+       
         <!-- Newsletter section start -->
         <div class="section third-section">
             <div class="container newsletter">
@@ -389,44 +405,7 @@
                         <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
                     </div>
                 </div>
-                <div class="map-wrapper">
-                    <div class="map-canvas" id="map-canvas">Loading map...</div>
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span5 contact-form centered">
-                                <h3>Say Hello</h3>
-                                <div id="successSend" class="alert alert-success invisible">
-                                    <strong>Well done!</strong>Your message has been sent.</div>
-                                <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="mail.php">
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                            <div class="error left-align" id="err-name">Please enter name.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                            <div class="error left-align" id="err-email">Please enter valid email adress.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."style="margin-top: 0px; margin-bottom: 3px; height: 194px;resize:none"></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your comment.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <button id="send-mail" class="message-btn">Send message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="container">
                     <div class="span9 center contact-info">
                         <p>Kathmandu</p>

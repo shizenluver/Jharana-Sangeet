@@ -6,27 +6,17 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>About US | Jharana Sangeet</title>
-
-  <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/socialshare.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <!-- Load css styles -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/styleaboutus.css" />
-    <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-    <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/pluton.css" />
     <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
     <link rel="shortcut icon" href="images/favicon.gif">
     <link href="css/font.css" rel="stylesheet">
 
@@ -37,12 +27,9 @@
  <!-- Service section start -->
         <div class="section primary-section" id="service">
             <div class="container">
-                <!-- Start title section -->
                 <div class="title">
                     <h1>What We Do?</h1>
-                    <!-- Section's title goes here -->
                     <p>Activities done by Jharana Sangeet</p>
-                    <!--Simple description for section goes here. -->
                 </div>
                 <div class="row-fluid">
                     <div class="span4">

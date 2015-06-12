@@ -10,6 +10,7 @@
   <!-- core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/preloader.css">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="css/socialshare.css">
@@ -19,6 +20,7 @@
     <![endif]-->
     <link rel="shortcut icon" href="images/favicon.gif">
   <link href="css/font.css" rel="stylesheet">
+
 
 </head><!--/head-->
 
@@ -32,7 +34,7 @@
         <div class="indexbg col-md-7">
           <img src="images/videobg.png" class="video-bg img-responsive">
         <div class="embed-responsive video-container embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FFZEV3SHSaY" frameborder="0" allowfullscreen></iframe>
+           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xQr_c4UfCNk" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-md-5 discover-text">

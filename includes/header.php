@@ -10,6 +10,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/socialshare.css">
+    <link rel="stylesheet" href="css/preloader.css">
       <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -28,7 +29,11 @@
   </head><!--/head-->
 
   <body class="homepage ">
-
+    <div id="preloader">
+            <div id="status">
+                <div class="wow tada" data-wow-duration="10s"><img src="images/jslogo.png"></div>
+            </div>
+        </div>
     <header id="header">
       <nav class="navbar navbar-inverse" role="banner">
 
