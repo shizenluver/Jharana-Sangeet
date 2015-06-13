@@ -47,19 +47,19 @@
             </button>
             <a href="index.php"><img src="images/jslogo.png" alt="logo" class="imglogo"></a>
           </div>
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.php">Home</a></li>
+              <li><a href="video.php">Videos </i></a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="aboutus.php">Contact</a></li>
+              <li><a href="#">Sign In</a></li>
+
+            </ul>
+          </div>
         </div><!--/.container-->
 
-        <div class="collapse navbar-collapse navbar-right">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="video.php">Videos </i></a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="aboutus.php">Contact</a></li>
-            <li><a href="#">Sign In</a></li>
-
-          </ul>
-        </div>
 
       </nav><!--/nav-->
     </header><!--/header-->

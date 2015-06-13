@@ -61,7 +61,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .footer-text{  color: #DAAB54 !important;font-size: 21px}
 .footer-ver-menu{ text-align: center;}
 .footer-ver-menu > ul {list-style:none;color:#C8841E;padding-left:20px; font-size: 20px;}
-.footer-ver-menu a:hover{text-decoration: none;color: #fff;font-size: 22px;text-align: center;}
+.footer-ver-menu a:hover{text-decoration: none;color: #fff;text-align: center;}
 .bottom-footer{border-top: 1px solid #323232;text-align: center;color: #fff;font-size: 13px}
 .social-share{display: block; list-style: none}
 .mail {margin: 6px;}
