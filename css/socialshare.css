@@ -7,9 +7,9 @@
          url('PATH_TO/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
+
 }
- 
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
@@ -73,6 +73,7 @@
     z-index: 2;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    color: #fff !important;
 }
 
 .soc-icon-last{
@@ -181,14 +182,8 @@
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-right: 4px;
-    color: #222222;
+    color: #EDE6E6;
     background-color: none;
-}
-
-.soc a:hover {
-    z-index: 2;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .soc-icon-last{

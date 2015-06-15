@@ -4,7 +4,7 @@
   font-weight: bold;
 }
 @font-face {
-  font-family: Twenty_Singles;
+  font-family: twentysingles;
   src: url(../fonts/twentysingles.ttf);
   font-weight: bold;
 }
@@ -21,8 +21,8 @@
 #Overcome {
  font-family: Overcome;
 }
-#Twenty_Singles {
- font-family: Twenty_Singles;
+#twentysingles {
+ font-family: twentysingles;
 }
 #Trench {
  font-family: Trench;

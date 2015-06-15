@@ -101,11 +101,11 @@
                         </div>
                     </div>
                 </div>
-              
-                    
+
+
             </div>
           </div>
-        
+
         <!-- Portfolio section end -->
         <!-- About us section start -->
         <div class="section primary-section" id="about">
@@ -198,11 +198,11 @@
                         </div>
                     </div>
                 </div>
-            
+
             </div>
         </div>
         <!-- About us section end -->
-        
+
         <!-- Client section start -->
         <!-- Client section start -->
         <div id="clients">
@@ -351,7 +351,7 @@
                 </div>
             </div>
         </div>-->
-        
+
         <!-- Newsletter section start -->
         <div class="section third-section">
             <div class="container newsletter">
@@ -372,12 +372,12 @@
                     <form action="//ceca.us10.list-manage.com/subscribe/post?u=93c53aebd14896af588b33a52&amp;id=238c67f1d9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline-form" target="_blank" novalidate>
                     <input type="email" value="" name="EMAIL"  class="span8 required email" id="mce-EMAIL">
                     <button type="submit"  name="subscribe" id="mc-embedded-subscribe"class="button button-sp">Subscribe</button>
-                     
+
                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_93c53aebd14896af588b33a52_238c67f1d9" tabindex="-1" value=""></div>
                     </div>
                     </form>
-                        
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -435,7 +435,7 @@
                         <p>Kathmandu</p>
                         <p class="info-mail">admin@jharanasangeet.com</p>
                         <p>+ph</p>
-                        
+
                         <div class="title">
                             <h2>Get us on our social links</h2>
                         </div>
@@ -465,20 +465,20 @@
             </a>
         </div>
         <!-- ScrollUp button end -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.js"></script>
-<script type="text/javascript" src="js/jquery.cslider.js"></script>
-<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-<script type="text/javascript" src="js/jquery.inview.js"></script>
-<script src="js/respond.min.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
-<!-- Load google maps api and call initializeMap function defined in app.js -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
-<script src="js/scroll.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="js/jquery.cslider.js"></script>
+  <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.js"></script>
+  <script src="js/respond.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <!-- Load google maps api and call initializeMap function defined in app.js -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 </html>

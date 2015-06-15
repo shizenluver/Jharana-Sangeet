@@ -19,7 +19,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .navbar {border-radius: 0;margin-bottom: 0;background: #222222;padding: 15px 0;padding-bottom: 0;}
 .navbar-toggle {margin-top: 0px}
 .navbar-nav>li{margin-left: 15px;padding-bottom: 0px;}
-.navbar-inverse .navbar-nav > li > a {padding: 1px 12px 5px 12px;margin: 0;border-radius: 0px;color: #D5891E;line-height: 24px;display: inline-block;font-weight: 600}
+.navbar-inverse .navbar-nav > li > a {padding: 2px 12px;margin: 0;border-radius: 0px;color: #D5891E;line-height: 20px;display: inline-block;font-weight: 600}
 .navbar-inverse .navbar-nav > li > a:hover{background-color: rgba(213, 133, 32, 1);color: #fff;}
 .navbar-inverse {border: none;}
 .navbar-inverse .navbar-brand {font-size: 36px;line-height: 50px;color: #fff;}
@@ -69,7 +69,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .mail-text a:hover{text-decoration: none;font-size: 18px;color:#E0B057;}
 .social-link-text{font-size: 80px;color: #d78d1f;margin-bottom: 20px}
 .copyright-text {padding: 7px;}
-.glyphicon {font-size: 18px}
+.glyphicon {font-size: 22px}
 /* --------------------------------------- */
 
 /*video page*/
@@ -109,3 +109,11 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .scrollup {text-align:center;cursor:pointer;vertical-align:middle;width:39px;height:39px;border-radius:5px;font-size:20px;position:fixed;bottom:30px;right:20px;
     border:1px solid #fff;display:none;background: #DAAB54;}
 .scrollup > a {position:relative;top:7px;color:#000;}
+
+
+.myapps{margin-top: 25px;}
+.myapps li{display: inline}
+.myapps li img{
+    width: 30px;
+}
+.topchart-list {color: #fff;font-size:20px}
