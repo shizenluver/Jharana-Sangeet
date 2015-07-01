@@ -23,8 +23,8 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/favicon.gif">
-    <link href="css/font.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.gif">
+  <link href="css/font.css" rel="stylesheet">
   </head><!--/head-->
 
   <body class="homepage">

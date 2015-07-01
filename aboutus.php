@@ -14,6 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/styleaboutus.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsivenavbar.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" type="text/css" href="css/pluton.css" />
     <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />

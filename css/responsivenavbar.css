@@ -1,0 +1,4 @@
+@media (max-width: 991px) and (min-width: 768px){
+.navbar-nav {margin-top: 0 !important;padding-right: 0px !important;margin-right: 0 !important;}
+.imglogo {margin: -14px 0 0 10px !important;}
+}

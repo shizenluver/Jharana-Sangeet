@@ -6,31 +6,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Videos | Jharana Sangeet</title>
-
   <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/socialshare.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <!-- Load css styles -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleaboutus.css" />
-    <link rel="stylesheet" type="text/css" href="css/videopage.css" />
-    <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="css/pluton.css" />
-    <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="images/favicon.gif">
-    <link href="css/font.css" rel="stylesheet">
-
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/preloader.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/responsivenavbar.css" />
+  <link rel="stylesheet" href="css/videopage.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+  <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.gif">
+  <link href="css/font.css" rel="stylesheet">
 </head><!--/head-->
 
 <body>
@@ -61,28 +49,28 @@
                 </div>
             </div>
         </div>
-    </div><!-- featured section -->
-        <!-- top chart and ad section-->
-        <div class="container">
-            <div class="row">
-             <div class="col-md-3">
-               <div class="type-videos">
-                        <h3>TOP CHOICES</h3>
-                        <ul>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                            <li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
-                        </ul>
-                    </div>
-           </div>
+    </div><!-- featured section end-->
+    <!-- top chart and ad section-->
+    <div class="container-fluid">
+        <div class="row">
+			<div class="col-md-3">
+                <div class="type-videos">
+					<h3>TOP CHOICES</h3>
+                    <ul>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+						<li><a href="#">Song A<br><strong>ARTIST NAME</strong></a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="col-md-9 right-content">
                 <div class="right-content-heading">
                     <div class="right-content-heading-left">
@@ -214,22 +202,20 @@
                     <div class="clear"> </div>
                  </div>
             </div>
-
-    </div><!-- row end -->
-    <div class=" container pagenation">
-    <ul>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">Next</a></li>
-    </ul>
-</div>
-</div><!--container end -->
-<!--pagenaiton -->
-
-</div>
+            <!--pagenaiton -->
+        <div class="pagenation pull-right">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </div>
+		</div><!-- row end -->
+	</div><!--container end -->
+</div><!--mainbody end -->
        <!-- ScrollUp button start -->
         <div class="scrollup">
             <a href="#">
