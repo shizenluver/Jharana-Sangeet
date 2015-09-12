@@ -47,12 +47,11 @@
           </div>
           <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="#">Videos </i></a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Sign In</a></li>
+              <li class="active"><a href="index.php"><i class="fa fa-home icons"></i>Home</a></li>
+              <li><a href="#"><i class="fa fa-video-camera icons"></i>Videos</a></li>
+              <li><a href="#"><i class="fa fa-picture-o icons"></i>Gallery</a></li>
+              <li><a href="#"><i class="fa fa-wrench icons"></i>Services</a></li>
+              <li><a href="#"><i class="fa fa-user icons"></i>Contact</a></li>
             </ul>
           </div>
         </div><!--/.container-->

@@ -17,6 +17,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .margin-content-bg{margin:10px 0 0 0;}
 /*================nav menu================*/
 .navbar {border-radius: 0;margin-bottom: 0;background: #222222;padding: 15px 0;padding-bottom: 0;}
+.navbar-inverse {border-bottom:1px solid #000 !important;}
 .navbar-toggle {margin-top: 0px}
 .navbar-nav>li{margin-left: 15px;padding-bottom: 0px;}
 .navbar-inverse .navbar-nav > li > a {padding: 2px 12px;margin: 0;border-radius: 0px;color: #D5891E;line-height: 20px;display: inline-block;font-weight: 600}
@@ -44,17 +45,17 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 /*================nav menu end================*/
 .main-body-index{margin-top: 0px;height: auto;}
 .margin-top{margin-top: 10px;}
-.page-bg{ background: -webkit-linear-gradient(#946d34, #E0B057); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#946d34, #E0B057); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#946d34, #E0B057); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#946d34, #E0B057);}
+.page-bg{ background: -webkit-linear-gradient(#131313, #131313); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#131313, #131313); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#131313, #131313); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#131313, #131313);}
 .video-bg{}
 .indexbg{background-color: none}
 .discover-text{position: relative;}
-.discover-text1{text-align: center;color: #000}
-.discover-text2{text-align: center;color: #000;text-transform: uppercase;}
+.discover-text1{text-align: center;color: #D58520;padding-bottom: 4px;}
+.discover-text2{text-align: center;color: #ADAAAA;text-transform: uppercase;}
 .video-container{}
-
+.icons{ letter-spacing: 4px;}
 
 /* ---------------------Footer-------------------------------------------------------- */
 .footer-bg{background-color:#222 !important;padding-top:10px !important;border-top:1px solid #080808;}
