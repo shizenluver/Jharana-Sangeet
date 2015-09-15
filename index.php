@@ -37,7 +37,7 @@
           <div class="indexbg col-md-7">
             <img src="images/videobg.png" class="video-bg img-responsive">
             <div class="embed-responsive video-container embed-responsive-16by9">
-             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pFMeL4lLrpw?autoplay=0" frameborder="0" allowfullscreen></iframe>
+             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pFMeL4lLrpw?autoplay=1" frameborder="0" allowfullscreen></iframe>
            </div>
          </div>
          <div class="col-md-5 discover-text">

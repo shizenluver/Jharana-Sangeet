@@ -6,8 +6,8 @@
       animation: fadeInUp 400ms;  }
 .main-body-margin-top{margin-bottom: 140px}
 .main-body-index {margin-bottom: 0px;}
-.imglogo{height: 59px;width: 322px;margin: -14px 0 0 -16px}
-.navbar-nav{margin-top: 6px;padding-right: 0px; }
+.imglogo{height: 49px;width: 258px;margin: -10px 0 4px 5px}
+.navbar-nav{margin-top: 4px;padding-right: 0px; }
 .video-container {position: relative;padding-bottom: 51.25%;padding-top: 0;height: 0; overflow: hidden;margin: -370px 29px 0 28px;}
 .video-container iframe, .video-container object, .video-container embed {position: absolute;top:0px;left: 0px;width: 100%;height: 100%;}
 .discover-text{margin-top: 60px;}
@@ -20,14 +20,14 @@
 @media (min-width: 992px) and (max-width: 1199px) {
  /* Make Navigation Toggle on Desktop Hover */
 .main-body-margin-top{margin-top: 50px; padding-top: 43px; margin-bottom: 150px}
-.imglogo{height: 59px;width: 322px;margin: -14px 0 0 -16px}
+.imglogo{height: 49px;width: 258px;margin: -10px 0 4px 5px}
 .main-body-index {margin-bottom:0px;}
 .dropdown:hover .dropdown-menu {display: block;
       -webkit-animation: fadeInUp 400ms;
       animation: fadeInUp 400ms;}
 .navbar-nav > li { margin-left: 10px;}
 .navbar-collapse { padding-left: 0;padding-right: 0;}
-.navbar-nav {margin-top: 6px;}
+.navbar-nav {margin-top: 4px;}
 .discover-text {margin-top: 17px}
 .discover-text1{font-size: 80px}
 .discover-text2{font-size: 50px}
@@ -40,13 +40,13 @@
 @media (min-width: 768px) and (max-width: 991px) {
   /* Make Navigation Toggle on Desktop Hover */
 .main-body-margin-top{margin-top: -25px; padding-top: 43px;}
-.imglogo{height: 49px;width: 269px;margin: -14px 0 0 -16px;}
+.imglogo{height: 49px;width: 258px;margin: -10px 0 4px 5px}
 .dropdown:hover .dropdown-menu {display: block;
   -webkit-animation: fadeInUp 400ms;
   animation: fadeInUp 400ms;}
 .navbar-collapse {padding-left: 0;padding-right: 0;}
 .navbar-nav > li {margin-left: 0;}
-.navbar-nav {margin-top: -39px;padding-right: 0px;margin-right: -30px}
+.navbar-nav {margin-top: -38px;padding-right: 0px;margin-right: -43px}
 .res-margin-footer{margin-bottom: 20px}
 .mail-text {text-align: center}
 .discover-text{margin-top: 90px;font-size: 70px}
@@ -58,7 +58,7 @@
 
 @media (min-width: 768px) and (max-width: 892px) {
 .main-body-margin-top{margin-top: -25px; padding-top: 43px;}
-.navbar-nav {margin-top: -39px;}
+.navbar-nav {margin-top: -38px;margin-right: -37px;}
 .footer-ver-menu  > ul,.bottom-footer {text-align: center}
 .mail-text {text-align: center}
 .video-container iframe, .video-container object, .video-container embed {position: absolute;top:0px;left: 0px;width: 100%;height: 100%;}
@@ -76,7 +76,7 @@
 .discover-text2 {font-size: 40px}
 .discover-text {margin-top: 60px}
 /*.video-bg{display: none}*/
-.imglogo{  height: 51px;  width: 307px;  margin: -11px 0 0 0;}
+.imglogo{height: 49px;width: 258px;margin: -10px 0 4px 5px}
 .video-container{position: relative;padding-bottom: 51.25%;padding-top: 0;overflow: hidden;margin: 0px 15px 0 15px;border:11px solid #E9E4E0;border-radius:15px;border-bottom-width: 22px }
 .video-container iframe, .video-container object, .video-container embed {position: absolute;top: 0px;left: 0px;width: 100%;height: 100%}
 }
@@ -114,5 +114,5 @@
 }
 
 @media (max-width:335px) {
-.imglogo{height: 44px;width: 216px;margin:-4px 0 0 0}
+.imglogo{height: 38px;width: 201px;margin:-4px 0 0 0}
 }

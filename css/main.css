@@ -19,7 +19,7 @@ hr{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #fff;}
 .navbar {border-radius: 0;margin-bottom: 0;background: #222222;padding: 15px 0;padding-bottom: 0;}
 .navbar-inverse {border-bottom:1px solid #000 !important;}
 .navbar-toggle {margin-top: 0px}
-.navbar-nav>li{margin-left: 15px;padding-bottom: 0px;}
+.navbar-nav>li{margin-left: 15px;padding-bottom: 1px;}
 .navbar-inverse .navbar-nav > li > a {padding: 2px 12px;margin: 0;border-radius: 0px;color: #D5891E;line-height: 20px;display: inline-block;font-weight: 600}
 .navbar-inverse .navbar-nav > li > a:hover{background-color: rgba(213, 133, 32, 1);color: #fff;}
 .navbar-inverse {border: none;}
